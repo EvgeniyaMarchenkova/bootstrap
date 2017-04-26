@@ -1,0 +1,41 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+.slider ol.carousel-indicators {
+  background-color: white;
+  margin-bottom: 0;
+}
+.slider ol.carousel-indicators li:not([class='active']) {
+  background-color: #506a85;
+}
+.who-we-are .main-information {
+  font-size: 20px;
+  line-height: 1.8em;
+  margin-bottom: 64px;
+}
+.who-we-are h2 {
+  margin: 115px auto 30px;
+}
+.latest-works {
+  background-color: #f2f5f7;
+}
+.slider,
+.who-we-are,
+.latest-works,
+.work-with-us,
+footer {
+  padding-top: 111px;
+}
