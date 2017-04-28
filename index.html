@@ -16,7 +16,7 @@
         <div class="container">
             <header>
                 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                    <div class="wrapper container-fluid">
+                    <div class="wrapper">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">
@@ -31,16 +31,16 @@
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="collapse navbar-collapse row" id="main-carousel">
                             <ul class="nav navbar-nav">
                                 <li class="pull-left"><a class="navbar-brand" href="#"><img alt="Brand" src="img/logo.png"></a></li>
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">PORTFOLIO</a></li>
-                                <li><a href="#">BLOG</a></li>
-                                <li><a href="#">PAGES</a></li>
-                                <li><a href="#">FEATURES</a></li>
-                                <li><a href="#">MEGA MENU</a></li>
-                                <li><a href="#">CONTACT</a></li>
+                                <li class="main-nav-link"><a href="#">HOME</a></li>
+                                <li class="main-nav-link"><a href="#">PORTFOLIO</a></li>
+                                <li class="main-nav-link"><a href="#">BLOG</a></li>
+                                <li class="main-nav-link"><a href="#">PAGES</a></li>
+                                <li class="main-nav-link"><a href="#">FEATURES</a></li>
+                                <li class="main-nav-link"><a href="#">MEGA MENU</a></li>
+                                <li class="main-nav-link"><a href="#">CONTACT</a></li>
                                 <li class="search pull-right">
                                     <a href="#">
                                         <span class="fa fa-search"></span>
@@ -55,7 +55,7 @@
     <div class="slider container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <div id="main-carousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -68,7 +68,11 @@
                         <div class="item active">
                             <img src="img/background.png" alt="slide 1">
                             <div class="carousel-caption">
-                                slide 1
+                                <h1>MADE FOR DESIGNERS</h1>
+                                <div class="main-information">
+                                    Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
+                                </div>
+                                <button class="btn btn-default btn-lg">GET STARTED NOW</button>
                             </div>
                         </div>
                         <div class="item">
@@ -106,22 +110,22 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-1">
-                <h2 class="fa fa-heart-o"></h2>
+            <div class="col-md-1 text-right">
+                <span class="fa fa-heart-o"></span>
             </div>
             <div class="col-md-3 text-left">
                 <h4>Passion</h4>
                 Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.
             </div>
-            <div class="col-md-1">
-                <h2 class="fa fa-lightbulb-o"></h2>
+            <div class="col-md-1 text-right">
+                <span class="fa fa-lightbulb-o"></span>
             </div>
             <div class="col-md-3 text-left">
                 <h4>Creativity</h4>
                 Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.
             </div>
-            <div class="col-md-1">
-                <h2 class="fa fa-star-o"></h2>
+            <div class="col-md-1 text-right">
+                <span class="fa fa-star-o"></span>
             </div>
             <div class="col-md-3 text-left">
                 <h4>Quality</h4>
@@ -134,20 +138,22 @@
             <div class="wrapper ">
                 <div class="row">
                     <h3>Check out our latest works</h3>
-                    Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.
+                    <div class="main-information">
+                        Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <img src="img/latest-works/motel.png">
-                        <h4>Grand Motel gets an identity brushup
-                            Identity</h4>
+                        <div class="main-information">Grand Motel gets an identity brushup
+                            Identity</div>
                     </div>
                     <div class="col-md-6">
                         <img src="img/latest-works/brand.png">
-                        <h4>
+                        <div class="main-information">
                             Fresh branding for a creative startup
                             Identity
-                        </h4>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -165,76 +171,102 @@
                     </div>
 
                 </div>
-                <div class="row">
-                    <span class="fa fa-circle "></span><span class="fa fa-circle "></span><span class="fa fa-circle "></span>
+                <div class="row ">
+                    <div class="slider-control">
+                        <span class="fa fa-circle "></span><span class="fa fa-circle "></span><span class="fa fa-circle "></span>
+                    </div>
                 </div>
-
             </div>
         </div>
     <div class="wrapper work-with-us">
         <div class="row">
             <h3>Want to work with us?</h3>
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8 col-md-offset-2 main-information">
                 Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.
 
             </div>
 
         </div>
         <div class="row">
-            <button class="btn btn-default" type="submit">Button</button>
+            <button class="btn btn-default btn-sm" type="submit">GET IN TOUCH</button>
         </div>
     </div>
 
-    <footer>
-        <div class="wrapper footer-gray ">
+    <footer class="footer">
 
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>Who we are</h3>
-                    <div class="logo"></div>
-                    <div>
-                        Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.
-                        More about us
-                    </div>
-                    <div class="more"></div>
+        <div class="main-footer row">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-3 text-left">
+                        <h5>WHO WE ARE</h5>
+                        <div class="logo"><img alt="Brand" src="img/logo.png"></div>
+                        <div>
+                            Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.
 
-                </div>
-                <div class="col-md-3">
-                    <h3>
-                        LATEST WORKS
-                    </h3>
-                </div>
-                <div class="col-md-3">
-                    <h3>Get in touch</h3>
-                    <div>
-                        Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.
-                        84 Street, City, State 24813+00 (123) 456 78 90info@reen.com
+                        </div>
+                        <p><a href="#">
+                            More about us <span class="fa fa-long-arrow-right"></span>
+                        </a> </p>
+                        <div class="more"></div>
+
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <h3>FREE UPDATES</h3>
-                    <div>
-                        Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.
+                    <div class="col-md-3 text-left">
+                        <h5>
+                            LATEST WORKS
+                        </h5>
+                        <div class="latest-work-footer">
+                            <img src="img/latest-works/slider1.png">
+                        </div>
+                        <div class="latest-work-footer">
+                            <img src="img/latest-works/slider2.png">
+                        </div>
+                        <div class="latest-work-footer">
+                            <img src="img/latest-works/slider3.png">
+                        </div>
+                        <div class="latest-work-footer">
+                            <img src="img/latest-works/slider4.png">
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <h5>GET IN TOUCH</h5>
+                        <div>
+                            Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.
+                            <address><span class="fa fa-map-marker"></span>84 Street, City, State 24813</address>
+                            <div><a href="tel:+00123456890"><span class="fa fa-mobile"></span> +00 (123) 456 78 90 </a></div>
+                            <a href="mailto:info@reen.com"><span class="fa fa-envelope-o"></span>info@reen.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <h5>FREE UPDATES</h5>
+                        <div>
+                            Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="ENTER YOUR EMAIL ADRESS">
+                                <span class="input-group-btn">
+                                   <button class="btn btn-default" type="button">SUBSCRIBE</button>
+                                 </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="wrapper footer-black">
 
-            <div class="pull-left">
-                © 2014 REEN. All rights reserved.
+        <div class="links-footer row">
+            <div class="wrapper">
+                <div class="pull-left">
+                    © 2014 REEN. All rights reserved.
+                </div>
+                <div class="pull-right">
+                        <span><a href="">Home</a></span>
+                        <span><a href="">Portfolio</a></span>
+                        <span><a href="">Blog</a></span>
+                        <span><a href="">About</a></span>
+                        <span><a href="">Services</a></span>
+                        <span><a href="">Contact</a></span>
+                    </>
+                </div>
             </div>
-            <div class="pull-right">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-
         </div>
     </footer>
 
