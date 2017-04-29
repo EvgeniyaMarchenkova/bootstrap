@@ -209,3 +209,7 @@ footer .links-footer a:hover {
   bottom: 0;
   right: 0;
 }
+.form-group input,
+.form-group label {
+  margin: 10px auto;
+}
