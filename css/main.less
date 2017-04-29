@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
   text-align: center;
 
@@ -25,23 +25,35 @@
 }
 
 .slider {
+  max-width: 1920px;
+  padding: 0;
   h1 {
-    letter-spacing: 1.2px;
+    letter-spacing: 7px;
     font-weight: 900;
   }
-  ol.carousel-indicators {
+  .carousel-indicators {
     background-color: white;
-    margin-bottom:0;
     li:not([class='active']) {
       background-color: #506a85;
     }
   }
-  > div > div {
-    padding: 0px;
+  button {
+    margin-top: 55px;
   }
+  #carousel-example-generic:hover  .carousel-indicators,
+  #carousel-example-generic:hover .carousel-control
+  {
+    visibility: visible;
+  }
+
 }
 
+
+
 .who-we-are {
+  h2 {
+    margin: 10px auto 22px;
+  }
   margin: 0 auto 130px;
   h4 {
     margin-bottom:20px;
@@ -51,38 +63,76 @@
     margin-top: 12.5px;
     color: #00bc9c;
   }
+  .advantages {
+    margin-top: 55px;
+  }
 
 }
 
 .latest-works {
   background-color: #f2f5f7;
   .slider-control {
-    padding: 40px 0 120px;
+    padding: 50px 0 120px;
     span {
       width: 26px;
       font-size: 18px;
     }
+  }
+  h3 {
+    margin: 18px auto 28px;
+  }
+
+  .item-of-work {
+    margin:75px auto 70px;
+    > div {
+      border: 2px solid #eef0f3;
+      padding: 25px 0 20px;
+      background-color: white;
+    }
+    > div > div {
+      margin-bottom: 10px;
+    }
+  }
+  img {
+    width: 100%;
   }
 }
 
 .work-with-us {
   button {
     letter-spacing: 1.2px;
+    margin: 16px auto 130px;
+  }
+  .main-information {
+    margin: 12px auto 20px;
   }
 }
 
-.slider, .who-we-are, .latest-works, .work-with-us, footer {
+.slider, .who-we-are, .latest-works, .work-with-us {
   padding-top: 111px;
 }
 
 .main-information {
   font-size: 20px;
   line-height: 1.8em;
-  margin-bottom: 64px;
+  letter-spacing: 1.2px;
 }
 
 footer {
+  address {
+    margin-bottom: 0;
+  }
+  a {
+    color: #9fa8b1;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #07a991;
+  }
   .main-footer {
+    color: #9fa8b1;
+
+
     background-color: #2f4052;
     padding: 60px 0 ;
     h5 {
@@ -96,13 +146,24 @@ footer {
       img {
         width: 100%;
       }
+
     }
     button, button:hover {
       border-color:#2f4052;
     }
+
   }
   .links-footer {
     background-color: #283645;
     padding: 30px 0;
+    a {
+      margin: auto 10px;
+      color:#9fa8b1;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #07a991;
+    }
   }
+
 }

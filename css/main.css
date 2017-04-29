@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
   text-align: center;
 }
@@ -19,22 +19,32 @@
 .navbar-nav > li.main-nav-link:nth-child(2) {
   margin-left: -150px;
 }
+.slider {
+  max-width: 1920px;
+  padding: 0;
+}
 .slider h1 {
-  letter-spacing: 1.2px;
+  letter-spacing: 7px;
   font-weight: 900;
 }
-.slider ol.carousel-indicators {
+.slider .carousel-indicators {
   background-color: white;
-  margin-bottom: 0;
 }
-.slider ol.carousel-indicators li:not([class='active']) {
+.slider .carousel-indicators li:not([class='active']) {
   background-color: #506a85;
 }
-.slider > div > div {
-  padding: 0px;
+.slider button {
+  margin-top: 55px;
+}
+.slider #carousel-example-generic:hover .carousel-indicators,
+.slider #carousel-example-generic:hover .carousel-control {
+  visibility: visible;
 }
 .who-we-are {
   margin: 0 auto 130px;
+}
+.who-we-are h2 {
+  margin: 10px auto 22px;
 }
 .who-we-are h4 {
   margin-bottom: 20px;
@@ -44,32 +54,66 @@
   margin-top: 12.5px;
   color: #00bc9c;
 }
+.who-we-are .advantages {
+  margin-top: 55px;
+}
 .latest-works {
   background-color: #f2f5f7;
 }
 .latest-works .slider-control {
-  padding: 40px 0 120px;
+  padding: 50px 0 120px;
 }
 .latest-works .slider-control span {
   width: 26px;
   font-size: 18px;
 }
+.latest-works h3 {
+  margin: 18px auto 28px;
+}
+.latest-works .item-of-work {
+  margin: 75px auto 70px;
+}
+.latest-works .item-of-work > div {
+  border: 2px solid #eef0f3;
+  padding: 25px 0 20px;
+  background-color: white;
+}
+.latest-works .item-of-work > div > div {
+  margin-bottom: 10px;
+}
+.latest-works img {
+  width: 100%;
+}
 .work-with-us button {
   letter-spacing: 1.2px;
+  margin: 16px auto 130px;
+}
+.work-with-us .main-information {
+  margin: 12px auto 20px;
 }
 .slider,
 .who-we-are,
 .latest-works,
-.work-with-us,
-footer {
+.work-with-us {
   padding-top: 111px;
 }
 .main-information {
   font-size: 20px;
   line-height: 1.8em;
-  margin-bottom: 64px;
+  letter-spacing: 1.2px;
+}
+footer address {
+  margin-bottom: 0;
+}
+footer a {
+  color: #9fa8b1;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #07a991;
 }
 footer .main-footer {
+  color: #9fa8b1;
   background-color: #2f4052;
   padding: 60px 0 ;
 }
@@ -92,4 +136,12 @@ footer .main-footer button:hover {
 footer .links-footer {
   background-color: #283645;
   padding: 30px 0;
+}
+footer .links-footer a {
+  margin: auto 10px;
+  color: #9fa8b1;
+}
+footer .links-footer a:hover {
+  text-decoration: none;
+  color: #07a991;
 }
