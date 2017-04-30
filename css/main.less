@@ -1,3 +1,16 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+.page-without-footer {
+  padding-bottom: 333px;
+}
+
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
@@ -10,8 +23,8 @@
   width: 100%;
   text-align: center;
   .navbar-brand {
-    width: 165px;
-    background: url("../img/logo.png") no-repeat 0 36px;
+    width: 180px;
+    background: url("../img/logo.png") no-repeat 15px 36px;
 
   }
   > li {
@@ -80,7 +93,7 @@
     width: 12em;
   }
   .slider-control {
-    padding: 50px 0 120px;
+    padding: 30px 0 127px;
     span {
       width: 26px;
       font-size: 18px;
@@ -91,7 +104,7 @@
   }
 
   .item-of-work {
-    margin:75px auto 70px;
+    margin:75px auto 80px;
     .information {
       border: 2px solid #eef0f3;
       padding: 25px 0 20px;
@@ -128,6 +141,9 @@
 }
 
 .work-with-us {
+  h3 {
+    margin-top: 17px;
+  }
   button {
     letter-spacing: 1.2px;
     margin: 16px auto 130px;
@@ -148,6 +164,12 @@
 }
 
 footer {
+  position: absolute;
+  height: 333px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+
   .footer-logo {
     max-width: 165px;
     height: 50px;
@@ -170,7 +192,7 @@ footer {
   .main-footer {
     color: #9fa8b1;
     background-color: #2f4052;
-    padding: 60px 0 ;
+    padding: 60px 0 55px;
     h5 {
       color: #fff;
       padding-bottom: 10px;
@@ -245,4 +267,9 @@ footer {
   label {
     margin:10px auto;
   }
+}
+
+.first {
+  height: 200px;
+  background-color: green;
 }
